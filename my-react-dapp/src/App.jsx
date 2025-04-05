@@ -9,7 +9,7 @@ import Home from "./homepage/Home";
 
 function App() {
 
-  // Create a client for TanStack Query
+  // client for TanStack Query
 const queryClient = new QueryClient();
 
   

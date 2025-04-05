@@ -14,10 +14,9 @@ const Home = () => {
         functionName: "name"
     });
 
-// Step 1: Get the write function and status from the hook
+//  function and status from the hook
 const { writeContract, isPending, isSuccess, error } = useWriteContract()
 
-// Step 2: Create a function that will execute the mint when called
 const handleMint = () => {
   writeContract({
     address: contractAddress,

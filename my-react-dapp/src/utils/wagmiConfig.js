@@ -2,7 +2,7 @@ import { getDefaultWallets } from '@rainbow-me/rainbowkit';
 import { http, createConfig } from 'wagmi';
 import { sepolia, mainnet } from 'wagmi/chains';
 
-// Create wagmi config
+// My wagmi config
 
 // Define the chains you want to support
 const chains = [mainnet, sepolia];
@@ -34,7 +34,7 @@ export const wagmiConfig = createConfig({
 });
 
 
-
+//Code i might need later so i aint deleting just yet
 
 // import { useState, useEffect } from 'react';
 // import { useAccount, useBalance, useContractRead, useContractWrite, usePrepareContractWrite } from 'wagmi';
