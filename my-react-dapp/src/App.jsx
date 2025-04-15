@@ -17,10 +17,7 @@ const queryClient = new QueryClient();
     <WagmiProvider config={wagmiConfig}>
             <QueryClientProvider client={queryClient}>
       <RainbowKitProvider>
-          <div className="app">
-            <h1>Web3 Application</h1>
           <Home />
-          </div>
         </RainbowKitProvider>
         </QueryClientProvider>
     </WagmiProvider>
