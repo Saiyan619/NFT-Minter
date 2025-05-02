@@ -2,12 +2,12 @@ import React from 'react'
 
 const NftStats = ({maxSupply,
   maxMintPerAddress,
-  nftMintRemaining,
+  nftMintedByAddress,
   totalMinted}) => {
     const stats = [
-        { title: "Total Minted", value: totalMinted },
+        { title: "Global Total Minted", value: totalMinted },
         { title: "Total NFTs", value: maxSupply },
-        { title: "NFTs Remaining", value: nftMintRemaining },
+        { title: "NFTs Minted by You", value: nftMintedByAddress },
         { title: "Max Mint Per Wallet", value: maxMintPerAddress },
       ];
     

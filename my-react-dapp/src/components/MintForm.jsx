@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import WalletConnect from '../components/WalletConnect'
 import { useReadContract, useAccount, useWriteContract, useWaitForTransactionReceipt } from 'wagmi'
-import { parseEther, formatEther, isAddress } from 'viem';
-import { contractAddress, contractAbi, APIKey, APISecret } from '../Constants/constant'
+import { parseEther, formatEther } from 'viem';
+import { contractAddress, contractAbi } from '../Constants/constant'
 import { Upload, Image as ImageIcon } from 'lucide-react';
 import NftPreview from './NftPReview';
 
@@ -231,7 +230,7 @@ console.log("isOwner", isOwner)
 
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div id='nft_section' className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div className=" border border-gray-600 rounded-lg p-6">
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-white mb-6">Create Your NFT</h2>

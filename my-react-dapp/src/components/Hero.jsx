@@ -2,8 +2,9 @@ import React from 'react';
 import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
+  // Function to smooth scroll to create mint form section
   const scrollToExplore = () => {
-    const exploreSection = document.getElementById('explore-section');
+    const exploreSection = document.getElementById('nft_section');
     if (exploreSection) {
       exploreSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -48,11 +49,11 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-center gap-12">
           {/* Hero Text Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
             <div className="inline-block px-3 py-1 mb-6 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20">
-              <span className="text-xs md:text-sm font-medium text-blue-400">The Future of Digital Ownership</span>
+              <span className="text-xs md:text-sm font-medium text-blue-400">Empowering Digital Creators</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
@@ -60,11 +61,11 @@ const Hero = () => {
                 Create & Mint
               </span>
               <br />
-              Extraordinary NFTs
+              Extraordinary NFTs Under One Token
             </h1>
             
             <p className="text-lg text-gray-300 mb-8 max-w-lg">
-            Easily mint your digital creations into NFTs with just a few clicks. No coding required, just your creativity.            </p>
+              Easily mint your digital creations into NFTs with just a few clicks. No coding required, just your creativity. </p>
             
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <button 
