@@ -313,7 +313,7 @@ console.log("isOwner", isOwner)
         </div>
       </div>
       
-
+{/* Component for the NFT preview */}
       <NftPreview
         name={name || 'NFT Name'}
         description={desc || 'NFT Description'}
