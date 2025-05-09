@@ -312,6 +312,7 @@ console.log("isOwner", isOwner)
           )}
         </div>
       </div>
+      
 
       <NftPreview
         name={name || 'NFT Name'}
